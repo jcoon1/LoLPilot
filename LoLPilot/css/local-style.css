@@ -5,6 +5,11 @@
 	position: relative;
 }
 
+p.SkillControl{
+	position: relative;
+	bottom: 830px;
+}
+
 p.Q1{
 	position: relative;
 	bottom: 800px;
