@@ -36,6 +36,6 @@ for x in json_trials:
 
   participant_id += 1
 
-df_trials.to_csv("LoLPilotresults.csv")
+df_trials.to_csv("LoLPilotResults.csv")
 
 # print(json_trials)
