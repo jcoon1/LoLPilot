@@ -7,7 +7,7 @@
 
 p.SkillControl{
 	position: relative;
-	bottom: 830px;
+	bottom: 850px;
 }
 
 p.Q1{
@@ -198,4 +198,14 @@ p.err_radio2{
 div.err_slider{
 	position: relative;
 	bottom: 780px;
+}
+
+p.level_exp{
+	position: relative;
+	bottom: 20px;
+}
+
+p.ChampFam{
+	position: relative;
+	bottom: 800px;
 }

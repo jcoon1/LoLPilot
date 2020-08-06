@@ -52,9 +52,9 @@
 
   <div class="slide" id="instructions">
     <h3>Instructions</h3>
-    <p>This experiment is still being developed. It is currently set to produce 20 matchups, but you are welcome to take this as many times as you want (the matchups will be different each time). </p>
+    <p>This experiment is still being developed. It is currently set to produce 20 compositions.</p>
 
-    <p>Please include your name (or a nickname) in the comments section at the end, ideally with how many times you've been through the procedure at that point (e.g. "Jeff","Jeff2","Jeff3", etc.) so that we can keep track of the number of different respondents.</p>
+    <p>If you have completed a previous version of this experiment, you are welcome to take this version of the experiment. However, <i>please only do this version once.</i> We are now looking at how different people interpret the same compositions. Taking the experiment multiple times will lead us to incorrectly assume different people agree on their responses.</p>
 <!--     <p>Please note that this task was originally designed for young children. For comparison purposes, the wording here is the same. </p> -->
     <button onclick="_s.button()">Continue</button>
   </div>
@@ -81,6 +81,17 @@
 
         <p class = "SkillControl"><i>Please assume this team composition is being used at Diamond level and that all players are using their preferred champions.</i></p>
 
+        <p class = "ChampFam"><b>How many of these champions are you familiar with?</b> <br>(You have a decent idea of how they will progress)</p>
+        <label class = "Q0radio"><input type="radio" name="ChampFam" value="0"/>0</label> 
+        <label class = "Q0radio"><input type="radio" name="ChampFam" value="1"/>1</label> 
+        <label class = "Q0radio"><input type="radio" name="ChampFam" value="2"/>2</label> 
+        <label class = "Q0radio"><input type="radio" name="ChampFam" value="3"/>3</label>
+        <label class = "Q0radio"><input type="radio" name="ChampFam" value="4"/>4</label> 
+        <label class = "Q0radio"><input type="radio" name="ChampFam" value="5"/>5</label>
+
+        <br>
+        <br>
+
         <p class = "Q1"><b>How realistic is this team composition?</b></p> 
         <label class = "Q1radio"><input type="radio" name="realistic_blue" value="1"/>Unrealistic</label> 
         <label class = "Q1radio"><input type="radio" name="realistic_blue" value="2"/>Somewhat Unrealistic</label> 
@@ -89,7 +100,7 @@
         <br>
         <br>
         <button onclick="_s.showButton()" class = "showButton">Continue</button> 
-        <p class="err_radio1">Please answer the question.</p>
+        <p class="err_radio1">Please answer both questions.</p>
 
         <p class = "hidden1"><b>How likely is it that this composition will...</b></p>
      <table id="multi_slider_table_Blue" class="hidden1 slider_table">
@@ -148,7 +159,13 @@
   <div class="slide"  id="subj_info">
     <div class="long_form">
       <div class="subj_info_title">Additional information</div>
+
+            <p>What league level do you typically play at? <input type="text" id="language"/></p>
+      <p class = "level_exp">(e.g. Bronze, Silver, Gold, etc.)</p>
+
       <p class="info">Answering these questions is optional, but will help us understand your answers.</p>
+
+
 <!--       <p>Did you read the instructions and do you think you did the HIT correctly?</p>
       <label><input type="radio"  name="assess" value="No"/>No</label>
       <label><input type="radio"  name="assess" value="Yes"/>Yes</label>
