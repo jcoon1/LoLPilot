@@ -210,7 +210,7 @@ function make_slides(f) {
     },
 
     showButton : function() {
-      if ($('input[name=realistic_blue]:checked').size() <= 0) {
+      if ($('input[name=realistic_blue]:checked').size() <= 0 || $('input[name=ChampFam]:checked').size() <= 0) {
         $(".err_radio1").show();
       } else {
         this.log_responses();
@@ -319,6 +319,7 @@ button : function(){
         "blue_excel_late" : exp.sliderPostBlue[1],
         "blue_excel_general" : exp.sliderPostBlue[2],
         "realistic_blue" : $('input[name=realistic_blue]:checked').val(), //if using radio buttons
+        "ChampFam" : $('input[name=ChampFam]:checked').val(), //if using radio buttons
         "TFearly" : $('input[name=TFearly]:checked').val(), //if using radio buttons
         "TFlate" : $('input[name=TFlate]:checked').val() //if using radio buttons
       });
@@ -385,6 +386,7 @@ button : function(){
     submit : function(e){
       //if (e.preventDefault) e.preventDefault(); // I don't know what this means.
       exp.subj_data = {
+        level: $("#level_exp").val(),
         useremail : $("#useremail").val(),
         language : $("#language").val(),
         // enjoyment : $("#enjoyment").val(),
