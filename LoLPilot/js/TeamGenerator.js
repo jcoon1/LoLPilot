@@ -420,26 +420,49 @@ LoLStimuli = makeLoLStimuli()
 // LoLStimuli[19] = {Blue: [ChampArray[29],ChampArray[83],ChampArray[30],ChampArray[8],ChampArray[86]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
 
 //third pilot selections
-LoLStimuli[0] = {Blue: [ChampArray[94],ChampArray[43],ChampArray[116],ChampArray[65],ChampArray[146]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[1] = {Blue: [ChampArray[101],ChampArray[62],ChampArray[53],ChampArray[15],ChampArray[119]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[2] = {Blue: [ChampArray[16],ChampArray[95],ChampArray[147],ChampArray[48],ChampArray[76]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[3] = {Blue: [ChampArray[33],ChampArray[134],ChampArray[98],ChampArray[65],ChampArray[142]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[4] = {Blue: [ChampArray[103],ChampArray[43],ChampArray[53],ChampArray[15],ChampArray[91]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[5] = {Blue: [ChampArray[68],ChampArray[82],ChampArray[61],ChampArray[47],ChampArray[142]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[6] = {Blue: [ChampArray[94],ChampArray[57],ChampArray[130],ChampArray[128],ChampArray[12]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[7] = {Blue: [ChampArray[77],ChampArray[143],ChampArray[69],ChampArray[73],ChampArray[85]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[8] = {Blue: [ChampArray[18],ChampArray[71],ChampArray[116],ChampArray[8],ChampArray[146]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[9] = {Blue: [ChampArray[77],ChampArray[71],ChampArray[21],ChampArray[73],ChampArray[130]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[10] = {Blue: [ChampArray[122],ChampArray[43],ChampArray[61],ChampArray[137],ChampArray[63]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[11] = {Blue: [ChampArray[59],ChampArray[24],ChampArray[84],ChampArray[120],ChampArray[78]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[12] = {Blue: [ChampArray[133],ChampArray[35],ChampArray[24],ChampArray[128],ChampArray[100]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[13] = {Blue: [ChampArray[39],ChampArray[25],ChampArray[112],ChampArray[128],ChampArray[119]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[14] = {Blue: [ChampArray[34],ChampArray[55],ChampArray[123],ChampArray[73],ChampArray[42]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[15] = {Blue: [ChampArray[33],ChampArray[71],ChampArray[130],ChampArray[46],ChampArray[76]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[16] = {Blue: [ChampArray[68],ChampArray[86],ChampArray[61],ChampArray[73],ChampArray[119]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[17] = {Blue: [ChampArray[70],ChampArray[143],ChampArray[53],ChampArray[27],ChampArray[2]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[18] = {Blue: [ChampArray[118],ChampArray[36],ChampArray[61],ChampArray[73],ChampArray[100]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
-LoLStimuli[19] = {Blue: [ChampArray[33],ChampArray[102],ChampArray[147],ChampArray[73],ChampArray[91]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[0] = {Blue: [ChampArray[94],ChampArray[43],ChampArray[116],ChampArray[65],ChampArray[146]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[1] = {Blue: [ChampArray[101],ChampArray[62],ChampArray[53],ChampArray[15],ChampArray[119]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[2] = {Blue: [ChampArray[16],ChampArray[95],ChampArray[147],ChampArray[48],ChampArray[76]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[3] = {Blue: [ChampArray[33],ChampArray[134],ChampArray[98],ChampArray[65],ChampArray[142]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[4] = {Blue: [ChampArray[103],ChampArray[43],ChampArray[53],ChampArray[15],ChampArray[91]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[5] = {Blue: [ChampArray[68],ChampArray[82],ChampArray[61],ChampArray[47],ChampArray[142]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[6] = {Blue: [ChampArray[94],ChampArray[57],ChampArray[130],ChampArray[128],ChampArray[12]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[7] = {Blue: [ChampArray[77],ChampArray[143],ChampArray[69],ChampArray[73],ChampArray[85]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[8] = {Blue: [ChampArray[18],ChampArray[71],ChampArray[116],ChampArray[8],ChampArray[146]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[9] = {Blue: [ChampArray[77],ChampArray[71],ChampArray[21],ChampArray[73],ChampArray[130]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[10] = {Blue: [ChampArray[122],ChampArray[43],ChampArray[61],ChampArray[137],ChampArray[63]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[11] = {Blue: [ChampArray[59],ChampArray[24],ChampArray[84],ChampArray[120],ChampArray[78]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[12] = {Blue: [ChampArray[133],ChampArray[35],ChampArray[24],ChampArray[128],ChampArray[100]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[13] = {Blue: [ChampArray[39],ChampArray[25],ChampArray[112],ChampArray[128],ChampArray[119]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[14] = {Blue: [ChampArray[34],ChampArray[55],ChampArray[123],ChampArray[73],ChampArray[42]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[15] = {Blue: [ChampArray[33],ChampArray[71],ChampArray[130],ChampArray[46],ChampArray[76]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[16] = {Blue: [ChampArray[68],ChampArray[86],ChampArray[61],ChampArray[73],ChampArray[119]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[17] = {Blue: [ChampArray[70],ChampArray[143],ChampArray[53],ChampArray[27],ChampArray[2]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[18] = {Blue: [ChampArray[118],ChampArray[36],ChampArray[61],ChampArray[73],ChampArray[100]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+// LoLStimuli[19] = {Blue: [ChampArray[33],ChampArray[102],ChampArray[147],ChampArray[73],ChampArray[91]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+
+
+//fourth pilot selections
+LoLStimuli[0] = {Blue: [ChampArray[32],ChampArray[55],ChampArray[140],ChampArray[73],ChampArray[119]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[1] = {Blue: [ChampArray[33],ChampArray[24],ChampArray[52],ChampArray[47],ChampArray[50]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[2] = {Blue: [ChampArray[29],ChampArray[104],ChampArray[5],ChampArray[128],ChampArray[50]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[3] = {Blue: [ChampArray[103],ChampArray[71],ChampArray[1],ChampArray[27],ChampArray[14]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[4] = {Blue: [ChampArray[74],ChampArray[143],ChampArray[113],ChampArray[15],ChampArray[110]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[5] = {Blue: [ChampArray[2],ChampArray[143],ChampArray[52],ChampArray[48],ChampArray[66]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[6] = {Blue: [ChampArray[29],ChampArray[55],ChampArray[30],ChampArray[27],ChampArray[76]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[7] = {Blue: [ChampArray[103],ChampArray[57],ChampArray[17],ChampArray[46],ChampArray[142]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[8] = {Blue: [ChampArray[33],ChampArray[55],ChampArray[112],ChampArray[8],ChampArray[88]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[9] = {Blue: [ChampArray[20],ChampArray[25],ChampArray[144],ChampArray[15],ChampArray[100]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[10] = {Blue: [ChampArray[96],ChampArray[57],ChampArray[79],ChampArray[73],ChampArray[142]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[11] = {Blue: [ChampArray[118],ChampArray[139],ChampArray[61],ChampArray[23],ChampArray[78]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[12] = {Blue: [ChampArray[141],ChampArray[62],ChampArray[140],ChampArray[27],ChampArray[100]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[13] = {Blue: [ChampArray[0],ChampArray[104],ChampArray[132],ChampArray[65],ChampArray[14]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[14] = {Blue: [ChampArray[20],ChampArray[135],ChampArray[140],ChampArray[73],ChampArray[50]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[15] = {Blue: [ChampArray[85],ChampArray[51],ChampArray[146],ChampArray[127],ChampArray[148]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[16] = {Blue: [ChampArray[118],ChampArray[25],ChampArray[40],ChampArray[8],ChampArray[142]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[17] = {Blue: [ChampArray[16],ChampArray[62],ChampArray[86],ChampArray[65],ChampArray[11]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[18] = {Blue: [ChampArray[33],ChampArray[139],ChampArray[130],ChampArray[100],ChampArray[75]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
+LoLStimuli[19] = {Blue: [ChampArray[94],ChampArray[24],ChampArray[30],ChampArray[27],ChampArray[88]], Red: [ChampArray[0],ChampArray[1],ChampArray[2],ChampArray[3],ChampArray[4]]}
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;

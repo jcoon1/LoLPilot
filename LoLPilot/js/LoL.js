@@ -168,8 +168,8 @@ function make_slides(f) {
 
 	this.sentence_types = ["Early", "Late", "General"];
       var sentences = {
-        "Early": "...excel in the early game?",
-        "Late": "...excel in the late game?",
+        "Early": "...excel in the laning phase?",
+        "Late": "...excel at scaling towards the late game?",
         "General": "...excel in general?",
       };
 
